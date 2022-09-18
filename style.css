@@ -1,0 +1,1130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    
+}
+
+.leftHeader1{
+  display: flex;
+  align-items: baseline;
+}
+
+.leftHeader1>select{
+    height: 20px;
+    margin-left: 10px;
+    border: none;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    cursor: pointer;
+    
+    outline: unset;
+}
+.leftHeader1>select:focus{
+    background-color:  rgb(7, 162, 183);
+    border: none;
+}
+
+.leftHeader1>p{
+    font-size: 13px;
+}
+
+/* rightHeader */
+
+.rightHeader1{
+    font-size: 12px;
+    align-items: center;
+}
+
+
+.rightHeader1>ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.rightHeader1>ul>li{
+    margin: 5px;
+}
+.li{
+    cursor: pointer;
+}
+/* topHeader */
+
+.topHeader{
+    background-color: rgb(7, 162, 183);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+img{
+    cursor: pointer;
+}
+/* downHeader */
+
+.leftHeader2{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.leftHeader2>h2{
+    font-size: 35px;
+    cursor: pointer;
+}
+.leftHeader2>ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.leftHeader2>ul>li{
+        margin: 8px;
+        font-size: 15px;
+        cursor: pointer;
+}
+.search{
+    background-color: transparent;
+    outline: none;
+    height: 25px;
+    font-size: 10px;
+    
+    width: 100%;
+}
+.form{
+    position: relative;
+    height: 35px;
+    width: 150px;
+
+}
+.inputbtn{
+    background-color: transparent;
+    position: absolute;
+    left:120px;
+    margin-top: 2px;
+    border: 0;
+    color: #FFF;
+    width: 35px;
+    height: 25px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.rightHeader2{
+    display: flex;
+    align-items: center;
+}
+.form{
+    margin-right: 20px;
+}
+.rightHeader2>p{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.downHeader{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+/* animacia */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+z-index: -1;
+  position: relative;
+  margin: auto;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* POST LIST */
+
+.leftList{
+    width:70% ;
+    height: 100%px;
+   
+    
+}
+.postList{
+   display: flex;
+}
+
+.grid{
+    border: 2px solid black;
+   
+}
+
+.leftParent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 350px 350px 350px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.list1{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+.leftList>p{
+    font-size: 25px;
+    margin-left: 101px;
+}
+.rightList{
+    width: 30%;
+    
+}
+
+.list2{
+    margin-top: 100px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container1 {
+  max-width: 200px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.list2-1{
+    margin-right: 210px;
+    box-shadow:  0px 1px 5px black;
+    border-radius: 2px;
+    cursor: pointer;
+    align-items: center;
+    z-index: -1;
+    margin-left: 10px;
+    border-top:5px solid blue;
+    margin-top: -60px;
+   
+}
+.list2-1>h2{
+    text-align: center;
+    
+}
+.list2-2{
+    width: 235px;
+    margin-left: 10px;
+    border: px solid black;
+    box-shadow:  0px 1px 5px black;
+    margin-top: 10px;
+    border-radius: 2px;
+    height: 230px;
+    display: grid;
+    place-items: center;
+    border-top:5px solid blue;
+    text-align: center;
+    
+}
+.list2-2>p{
+    font-size: 10px;
+    margin-bottom: 40px;
+    height: 5px;
+}
+.list2-2>h2{
+    font-size: 30px;
+    margin-top: 10px;
+    height: 40px;
+}
+.list2-2>input{
+    margin-bottom: 30px;
+    height: 30px;
+}
+.list2-2>button{
+    height: 40px;
+    margin-top: -60px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+/* SHOPLIST */
+
+.grid{
+    display: grid;
+    place-items: center;
+    border: none;
+    box-shadow:  0px 1px 5px black;
+
+}
+.info{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listinput{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+
+}
+.pluslist{
+    display: grid;
+    place-items: center;
+}
+.buyPlus{
+    cursor: pointer;
+}
+.staffList{
+    display: flex;
+    justify-content: end;
+    margin-top: -10px;
+    margin-right: 8px;
+}
+.postList2{
+    margin-top: 40px;
+    width: 70%;
+ 
+}
+.postList2>h2{
+    margin-left: 103px;
+}
+.staffList>div{
+    margin: 11px;
+    
+}
+.postList3>h2{
+    margin-left: 92px;
+}
+.postList3{
+    margin-top: 40px;
+    width: 70%;
+ 
+}
+.footer{
+    margin-top: 60px;
+}
+.fTop{
+    background-color: rgb(7, 162, 230);
+    display: flex;
+    justify-content: center;
+
+}
+.fTopChild1{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.fTopChild2{
+    display: flex;
+    align-items: center;
+   margin-left: 20px;
+}
+
+.faces2{
+
+    display: inline;
+    border-bottom: 1px solid white;
+}
+   
+.faceList>p{
+    
+    font-size: 12px;
+}
+.contDiv{
+    width: 230px;
+    font-size: 13px;
+    border-bottom: 1px solid white;
+}
+.fBig{
+    background-color:rgb(7, 162, 183) ;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.fBig>div{
+    margin: 30px;
+}
+.contImgs{
+    margin-top:10px ;
+}
+.footDown{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(7, 144, 162) ;
+    color: aquamarine;
+}
+.footUl{
+    font-size: 10px;
+      
+}
+
+.inform>div>p{
+    cursor: pointer;
+}
+.footUl>ul{
+    display: flex;
+    list-style-type: none;
+}
+.contact>div>p{
+    cursor: pointer;
+}
+
+
+.li{
+    cursor: pointer;
+}
+@media only screen and (max-width: 420px ) {
+    .topHeader{
+        display: grid;
+         place-items: center;
+         width: 100%;
+    }
+    .rightHeader1{
+       margin-right: 50px;
+    }
+    .leftHeader2{
+        display: block
+    }
+    .downHeader{
+        display: grid;
+        place-items: center;
+ 
+    }
+    .leftHeader2>h2{
+        margin-left: 210px;
+    }
+    .leftHeader2>ul>li{
+             margin-right: 50px;
+    }
+    .rightHeader2{
+        display: grid;
+        place-items: center;
+    }
+    .icons{
+         margin-top: 20px;
+    }
+    .staffList{
+        display: none;
+    }
+    .rightList{
+        display: none
+    }
+    
+    .slideshow-container{
+        display:none ;
+    }
+    .list1{
+        display: none;
+    }
+    .rightHeader1{
+        display: none;
+    }
+    .leftHeader2{
+        display: grid;
+        place-items: center;
+    }
+    .leftHeader2>ul{
+        display: grid;
+        margin-right: 70px;
+        text-align: center;
+        
+    }
+    .leftHeader2>ul>li{
+        font-size: 30px;
+        margin: 10px;
+
+    }
+    .leftHeader2>h2{
+        font-size: 50px;
+        margin-left: 0px;
+    }
+    .downHeader{
+        position: relative;
+        z-index: 0;
+    }
+    .rightHeader2>div{
+        margin-right:20px ;
+    }
+    .rightHeader2>p{
+        margin-right:20px ;
+    }
+    .leftList>p{
+        font-size: 15px;
+        
+    }
+    .leftList>p::after{
+        content: " >";
+    }
+    .postList2>h2{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    .postList2>h2::after{
+        content: " >";
+    }
+    .postList3>h2{
+        font-size: 15px;
+        margin-left: 100px;
+    }
+    .postList3>h2::after{
+        content: " >";
+    }
+    .facediv{
+        display: none;
+    }
+    .twiter{
+        display: none;
+    }
+    .fTopChild1>h2{
+        font-size: 13px;
+    }
+    
+    .fTopChild2>h2{
+        font-size: 13px;
+    }
+    .downicon{
+        width: 20px;
+        height: 20px;
+    }
+    .fTopChild2{
+        margin-right:50px ;
+    }
+    .fTop{
+        display: grid;
+        place-items: center;
+    }
+    .contact{
+        font-size: 13px;
+       height: 180px;
+    }
+    .inform{
+        font-size: 13px;
+        height: 170px;
+
+    }
+    .contDiv{
+        border: none;
+    }
+    .contImgs{
+        display: none;
+    }
+    .fBig{
+        display: grid;
+    }
+    .footDown{
+        display: grid;
+        place-items: center;
+    }
+    .footDown>div>ul{
+        margin-left: -48px;
+    }
+  }
+  @media only screen and (min-width: 420px) and (max-width: 572px ) {
+    .topHeader{
+        display: grid;
+         place-items: center;
+         width: 100%;
+    }
+    .rightHeader1{
+       margin-right: 50px;
+    }
+    .leftHeader2{
+        display: block
+    }
+    .downHeader{
+        display: grid;
+        place-items: center;
+ 
+    }
+    .leftHeader2>h2{
+        margin-left: 210px;
+    }
+    .leftHeader2>ul>li{
+             margin-right: 50px;
+    }
+    .rightHeader2{
+        display: grid;
+        place-items: center;
+    }
+    .icons{
+         margin-top: 20px;
+    }
+    .staffList{
+        display: none;
+    }
+    .rightList{
+        display: none
+    }
+    
+    .slideshow-container{
+        display:none ;
+    }
+    .list1{
+        display: none;
+    }
+    .rightHeader1{
+        display: none;
+    }
+    .leftHeader2{
+        display: grid;
+        place-items: center;
+    }
+    .leftHeader2>ul{
+        display: grid;
+        margin-right: 70px;
+        text-align: center;
+        
+    }
+    .leftHeader2>ul>li{
+        font-size: 30px;
+        margin: 10px;
+
+    }
+    .leftHeader2>h2{
+        font-size: 50px;
+        margin-left: 0px;
+    }
+    .downHeader{
+        position: relative;
+        z-index: 0;
+    }
+    .rightHeader2>div{
+        margin-right:20px ;
+    }
+    .rightHeader2>p{
+        margin-right:20px ;
+    }
+    .leftList>p{
+        font-size: 15px;
+        
+    }
+    .leftList>p::after{
+        content: " >";
+    }
+    .postList2>h2{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    .postList2>h2::after{
+        content: " >";
+    }
+    .postList3>h2{
+        font-size: 15px;
+        margin-left: 100px;
+    }
+    .postList3>h2::after{
+        content: " >";
+    }
+    .facediv{
+        display: none;
+    }
+    .twiter{
+        display: none;
+    }
+    .fTopChild1>h2{
+        font-size: 13px;
+    }
+    
+    .fTopChild2>h2{
+        font-size: 13px;
+    }
+    .downicon{
+        width: 20px;
+        height: 20px;
+    }
+    .fTopChild2{
+        margin-right:50px ;
+    }
+    .fTop{
+        display: grid;
+        place-items: center;
+    }
+    .contact{
+        font-size: 13px;
+    }
+    .inform{
+        font-size: 13px;
+    }
+    .contImgs>img{
+        width: 0px;
+        height: 20px;
+    }
+  }
+  @media only screen and (min-width: 572px) and (max-width: 664px )  {
+    .topHeader{
+        display: grid;
+         place-items: center;
+         width: 100%;
+    }
+    .rightHeader1{
+       margin-right: 50px;
+    }
+    .leftHeader2{
+        display: block
+    }
+    .downHeader{
+        display: grid;
+        place-items: center;
+ 
+    }
+    .leftHeader2>h2{
+        margin-left: 210px;
+    }
+    .leftHeader2>ul>li{
+             margin-right: 50px;
+    }
+    .rightHeader2{
+        display: grid;
+        place-items: center;
+    }
+    .icons{
+         margin-top: 20px;
+    }
+   
+    .postList{
+        margin-left: 40px;
+    }
+    .postList2{
+        margin-left: 40px;
+    }
+    .postList3{
+        margin-left: 40px;
+    }
+    .leftList{
+        width: 90%;
+        display: grid;
+       
+    }
+    .leftParent{
+        display: grid;
+        grid-template-columns: 250px 250px ;
+        grid-template-rows: 300px 300px ;
+        grid-row-gap: 20px;
+        grid-column-gap: 30px;
+    }
+    .img>img{
+        width: 180px;
+        margin-right: 45px;
+    }
+    .info{
+        margin-left: -30px;
+    }
+    .reslist{
+        width: 250px;
+        height: 350px;
+    }
+    .leftList>p{
+        display: block;
+        
+       
+    }
+    .rightList{
+        display: none;
+    }
+    .postList2{
+        width: 90%;
+        display: grid;
+        
+    }
+    .postList2>h2{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .postList3{
+        width: 90%;
+        display: grid;
+    }
+    .postList3>h2{
+        margin-left: 20px;
+        margin-top: -20px;
+        cursor: pointer;
+    }
+    
+    .postList3>h2::after{
+        content: " >" ;
+    }
+    .postList2>h2::after{
+        content: " >";
+    }
+   
+    .staffList{
+        display: none;
+    }
+    
+    .facediv{
+        display: none;
+    }
+    .twiter{
+        display: none;
+    }
+    .fTopChild1>h2{
+        font-size: 15px;
+    }
+    .fTopChild2>h2{
+        font-size: 15px;
+    }
+    .downicon{
+        width: 30px;
+        height: 30px;
+    }
+    .fTopChild2{
+        margin-right:50px ;
+    }
+    .fTop{
+        display: grid;
+        place-items: center;
+    }
+   }
+
+
+
+
+  @media only screen and (min-width: 664px) and (max-width: 875px )  {
+    .topHeader{
+        display: grid;
+         place-items: center;
+         width: 100%;
+    }
+    .rightHeader1{
+       margin-right: 50px;
+    }
+    .leftHeader2{
+        display: block
+    }
+    .downHeader{
+        display: grid;
+        place-items: center;
+ 
+    }
+    .leftHeader2>h2{
+        margin-left: 210px;
+    }
+    .leftHeader2>ul>li{
+             margin-right: 50px;
+    }
+    .rightHeader2{
+        display: grid;
+        place-items: center;
+    }
+    .icons{
+         margin-top: 20px;
+    }
+   
+    .postList{
+        margin-left: 40px;
+    }
+    .postList2{
+        margin-left: 40px;
+    }
+    .postList3{
+        margin-left: 40px;
+    }
+    .leftList{
+        width: 90%;
+        display: grid;
+       
+    }
+    .leftParent{
+        display: grid;
+        grid-template-columns: 250px 250px ;
+        grid-template-rows: 300px 300px ;
+        grid-row-gap: 20px;
+        grid-column-gap: 30px;
+    }
+    .img>img{
+        width: 180px;
+        margin-right: 45px;
+    }
+    .info{
+        margin-left: -30px;
+    }
+    .reslist{
+        width: 250px;
+        height: 350px;
+    }
+    .leftList>p{
+        display: block;
+        
+       
+    }
+    .rightList{
+        display: none;
+    }
+    .postList2{
+        width: 90%;
+        display: grid;
+        
+    }
+    .postList2>h2{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .postList3{
+        width: 90%;
+        display: grid;
+    }
+    .postList3>h2{
+        margin-left: 20px;
+        margin-top: -20px;
+        cursor: pointer;
+    }
+    
+    .postList3>h2::after{
+        content: " >" ;
+    }
+    .postList2>h2::after{
+        content: " >";
+    }
+   
+    .staffList{
+        display: none;
+    }
+    
+    .facediv>.faceList{
+        display: none;
+    }
+    .twiter{
+        display: none;
+    }
+    .fTopChild1>h2{
+        font-size: 15px;
+    }
+    .fTopChild2>h2{
+        font-size: 15px;
+    }
+    .downicon{
+        width: 30px;
+        height: 30px;
+    }
+   }
+
+
+
+   
+   @media only screen and (min-width: 875px) and (max-width: 988px ){
+    .postList{
+        margin-left: 40px;
+    }
+    .postList2{
+        margin-left: 40px;
+    }
+    .postList3{
+        margin-left: 40px;
+    }
+    .leftList{
+        width: 90%;
+        display: grid;
+       
+    }
+    .leftParent{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows: 350px 350px 350px;
+        grid-row-gap: 20px;
+        grid-column-gap: 30px;
+    }
+    .img>img{
+        width: 180px;
+        margin-right: 45px;
+    }
+    .info{
+        margin-left: -20px;
+    }
+    .reslist{
+        width: 250px;
+        height: 350px;
+    }
+    .leftList>p{
+        margin-left: 0px;
+       
+    }
+    .rightList{
+        display: none;
+    }
+    .postList2{
+        width: 90%;
+        display: grid;
+        
+    }
+    .postList2>h2{
+        margin-left: 20px;
+    }
+    
+    .postList3{
+        width: 90%;
+        display: grid;
+    }
+    .postList3>h2{
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+
+   @media only screen and (min-width: 988px) and (max-width: 1378px ){
+        .leftList{
+            width: 100%;
+            
+            place-content: center;
+        }
+        .leftList>p{
+            margin-left:20px;
+        }
+        .rightList{
+            display: none;
+        }
+        .postList2{
+            width: 100%;
+            display: grid;
+            
+        }
+        .postList2>h2{
+            margin-left: 20px;
+        }
+        .postList3{
+            width: 100%;
+            display: grid;
+        }
+        .postList3>h2{
+            margin-left: 20px;
+        }
+   }
+
+
+
+
